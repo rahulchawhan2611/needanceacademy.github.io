@@ -1,0 +1,65 @@
+//- index.pug
+doctype html
+html
+  head
+    title  Neelam Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+          div#logo
+              img(src="/static/img/logo.png")
+              | NDA
+          li #[a(href="/") Home]
+          li #[a(href="/about") About]
+          li #[a(href="/services") Services]
+          li #[a(href="/info") Class Info]
+          li #[a(href="/contact") Contact us]
+
+    section#introSection
+        div Welcome To Neelam Dance Academy
+        div.small Live Learn Dance Repeat
+
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/download.png")
+          div.card-content
+              p This website is made for all the dance website
+
+
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/img/2.png")
+          div.card-content
+              p This website is made for all the dance website 
+
+
+              
+      div.card         
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/3.png")
+          div.card-content
+              p This website is made for all the dance website  
+      
+
+    section#sponsorsSection
+      h2 Our Sponsors 
+      div#sponsers
+        img(src="/static/img/logo1.png", alt="Sponser image", class="sp-image")
+        img(src="/static/img/logo2.png", alt="Sponser image", class="sp-image")
+        img(src="/static/img/logo3.png", alt="Sponser image", class="sp-image")
+        img(src="/static/img/logo4.png", alt="Sponser image", class="sp-image")
+
+    footer#footer 
+        | Copyright &copy; 2022 neelamdanceacademy.com | All right reserved
+    script
+      include ../static/index.js

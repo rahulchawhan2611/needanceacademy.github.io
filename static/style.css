@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin:0 14px;
+    font-size:28px;
+    margin-right:40px;
+}
+#logo img{
+    height: 42px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+}
+#navbar{
+    background-color: rgb(250, 180, 4);
+    padding: 18px 14px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: black;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    color:rgb(250, 180, 4);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background-color: hotpink;
+    background: center / cover no-repeat url("/static/pic1.jpg");
+    font-size: 35px;
+    padding-bottom: 140px;    
+}
+#missionSection{
+    height: 326px;
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Lobster', cursive;
+    
+} 
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 16px;
+    height: 209px;
+    display: inline-block;
+    
+}   
+.card h3{
+    text-align: center;
+    margin:0px 12px;
+    margin-top: 15px;
+    font-family: 'Festive', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0px 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#introSection div.small{
+    font-size: 27px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color:pink;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+#sponsers{
+    height: 191px;
+    max-width: 1000px;
+    margin:23px auto;
+}
+.sp-image{
+    height: 80%;
+    margin: 20px;
+}
+
+
+
+#footer{
+    height: 60px;
+    color: rgb(250, 180, 4);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:black;
+    font-family: 'Festive', cursive;
+}
+/* Large Devices */
+@media (min-width:1200px){
+
+    
+    #missionSection{
+        width:100%;
+        margin: auto;
+    }
+
+}
+
+/* Medium Devices */
+@media (min-width:992px) and (max-width:1199px){
+    #missionSection{
+       
+        width:100%;
+        margin: auto;
+    }
+   
+}
+
+/* Small Devices */
+
+@media (min-width:768px) and (max-width:991px){
+    #missionSection{
+        width:100%;
+        margin: auto;
+    }
+  
+}
+
+/* Extra Small Devices */
+
+@media (min-width:767px){
+    #missionSection{
+        width:100%;
+        margin: auto;
+    }
+
+    
+ 
+}
